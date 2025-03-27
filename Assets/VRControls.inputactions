@@ -1,0 +1,130 @@
+{
+    "name": "VRControls",
+    "maps": [
+        {
+            "name": "shootAction",
+            "id": "b0d91f98-71cb-4f27-b51c-63b1b2c625a3",
+            "actions": [
+                {
+                    "name": "shootAction",
+                    "type": "Button",
+                    "id": "446e3938-19c3-464f-b77d-32fd42adc235",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "ac5f5dbd-e57d-476c-98de-8c69f6a5533f",
+                    "path": "<XRController>{RightHand}/{TriggerButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "shootAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "CycleMode",
+            "id": "f9db2469-7149-4648-8177-7aa75c20f1da",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "856ac012-1b30-440e-911d-a194def68728",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CycleMode",
+                    "type": "Button",
+                    "id": "75de128e-e2f9-4c12-9753-a9a5785fa08f",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "5d27578b-e765-4f5e-aa3d-4e3170df70cd",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ad1a842e-5e91-4771-9d36-45cdeeebad11",
+                    "path": "<XRController>{RightHand}/{SecondaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CycleMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        },
+        {
+            "name": "StopYaw",
+            "id": "0c15fbb5-1908-4b42-b5d3-c0862dd26462",
+            "actions": [
+                {
+                    "name": "New action",
+                    "type": "Button",
+                    "id": "d79425de-f441-415f-9dc1-628887457c45",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleMovement",
+                    "type": "Button",
+                    "id": "8379c6fa-2e7d-43e6-82ff-6d470ba3db62",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "acc17e19-9471-4263-972b-96de3de6426a",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "New action",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "7456aae1-929f-4cb2-b0ad-e384c7909baa",
+                    "path": "<XRController>{RightHand}/{PrimaryButton}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleMovement",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
